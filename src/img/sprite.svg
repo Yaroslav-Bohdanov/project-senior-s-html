@@ -1,0 +1,20 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-burger-menu" viewBox="0 0 24 10">
+    <path d="M1.5 8.5h21m-21-7h21" stroke="#1B414B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="icon-close" viewBox="0 0 16 16">
+    <path d="M16 1.86 14.14 0 8 6.14 1.86 0 0 1.86 6.14 8 0 14.14 1.86 16 8 9.86 14.14 16 16 14.14 9.86 8 16 1.86Z" fill="#055545"/>
+</symbol>
+<symbol id="icon-instagram" viewBox="0 0 19 19">
+    <path d="M13.88 0H5.12A5.12 5.12 0 0 0 0 5.12v8.76A5.12 5.12 0 0 0 5.12 19h8.76A5.12 5.12 0 0 0 19 13.88V5.12A5.12 5.12 0 0 0 13.88 0ZM9.5 13.88a4.38 4.38 0 1 1 0-8.76 4.38 4.38 0 0 1 0 8.76Zm5.48-8.76a1.1 1.1 0 1 1 0-2.2 1.1 1.1 0 0 1 0 2.2ZM12.42 9.5a2.92 2.92 0 1 1-5.84 0 2.92 2.92 0 0 1 5.84 0Z"/>
+</symbol>
+<symbol id="icon-youtube" viewBox="0 0 20 20">
+    <path d="m11.67 9.83-2.34-1.1c-.2-.09-.37.02-.37.24v2.06c0 .22.17.33.37.24l2.34-1.1c.2-.1.2-.25 0-.34ZM10 0a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm0 14.06c-5.12 0-5.2-.46-5.2-4.06 0-3.6.08-4.06 5.2-4.06s5.2.46 5.2 4.06c0 3.6-.08 4.06-5.2 4.06Z"/>
+</symbol>
+<symbol id="icon-facebook" viewBox="0 0 20 20">
+    <path d="M20 10.03C20 4.49 15.52 0 10 0a10.02 10.02 0 0 0-2 19.85v-6.82H6v-3h2V7.52A3.5 3.5 0 0 1 11.5 4H14v3h-2a1 1 0 0 0-1 1.01v2h3v3.01h-3V20c5.05-.5 9-4.77 9-9.97Z"/>
+</symbol>
+</defs>
+</svg>
+

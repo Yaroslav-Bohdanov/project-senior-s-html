@@ -1,0 +1,9 @@
+@import url(./base/common.css);
+@import url(./layouts/01-header.css);
+@import url(./layouts/02-hero.css);
+@import url(./layouts/03-aboutus.css);
+@import url(./layouts/04-our-yachts.css);
+@import url(./layouts/05-advantages.css);
+@import url(./layouts/06-rent-yacht.css);
+@import url(./layouts/07-reviews.css);
+@import url(./layouts/08-footer.css);

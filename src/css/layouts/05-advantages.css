@@ -1,0 +1,165 @@
+/* #region 05 Антон Ким */
+.adventages {
+    padding: 40px 0;
+}
+
+.adventages-list {
+    background-color: #1B414B;
+    border-radius: 24px;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.adventages-name {
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+.adventages-name::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    height: 2px;
+    border-radius: 18px;
+    background-color: rgba(251, 251, 251, 0.1);
+    ;
+}
+
+.advantages-text {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.pic {
+    border-radius: 24px;
+}
+
+/* ==============================mobile==============================*/
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .adventages-list {
+        max-width: 375px;
+    }
+
+    .adventages-name {
+        width: 295px;
+    }
+
+    .adventages-list-item:first-child .advantages-text:nth-child(2) {
+        max-width: 238px;
+    }
+}
+
+/* ===============================tablet=============================*/
+
+@media screen and (min-width:768px) {
+    .adventages {
+        padding: 75px 0;
+    }
+
+    .adventages-list {
+        max-width: 768px;
+        padding: 90px 32px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 44px;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .adventages-name {
+        font-size: 32px;
+        width: 304px;
+    }
+
+    .advantages-text {
+        font-size: 13px;
+        line-height: 1.15;
+        max-width: 292px;
+    }
+
+    .adventages-list-item:first-child .advantages-text:nth-child(2) {
+        max-width: 238px;
+    }
+
+}
+
+/* =========================desctop 1280============================ */
+
+
+@media screen and (min-width:1280px) {
+    .adventages .container {
+        display: flex;
+    }
+
+    .adventages-list {
+        margin: 0px 0px;
+        max-width: 716px;
+        padding: 90px 50px;
+        column-gap: 44px;
+        row-gap: 44px;
+        margin-right: 32px;
+        align-self: center;
+    }
+
+    .adventages-list-item {
+        max-width: 280px;
+    }
+
+    .adventages-name {
+        width: 280px;
+    }
+
+    .adventages-name::after {
+        max-width: 280px;
+    }
+}
+
+/* =========================desctop 1440============================ */
+
+@media screen and (min-width:1440px) {
+
+    .adventages-list {
+        max-width: 768px;
+        column-gap: 32px;
+        row-gap: 44px;
+        margin-right: 32px;
+        justify-content: space-between;
+    }
+
+    .adventages-list-item {
+        max-width: 318px;
+    }
+
+    .adventages-name {
+        width: 318px;
+    }
+
+    .adventages-name::after {
+        max-width: 318px;
+    }
+}
+
+/* #endregion */

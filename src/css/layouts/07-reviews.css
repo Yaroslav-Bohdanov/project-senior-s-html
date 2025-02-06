@@ -1,0 +1,113 @@
+/* #region 07 Владислав Аврашов */
+.reviews {
+  padding: 40px 0;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--near-white);
+  margin-bottom: 25px;
+}
+
+.title-description {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--near-white);
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+.customer-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--deep-black-greenish);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.customer-message {
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+.customer-reviews {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.review {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 24px;
+  padding: 32px 16px;
+  background: var(--near-white);
+}
+
+.review:nth-child(1) {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    padding: 75px 0;
+  }
+
+  .title {
+    max-width: 704px;
+    font-size: 48px;
+  }
+
+  .title-description {
+    max-width: 571px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+
+  .review:nth-child(1),
+  .review:nth-child(2) {
+    display: flex;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    max-width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .customer-reviews {
+    gap: 26px;
+  }
+
+  .review {
+    display: flex;
+    flex-basis: calc((100% - 52px) / 2);
+  }
+}
+
+@media (min-width: 1440px) {
+  .customer-reviews {
+    gap: 32px;
+  }
+
+  .review {
+    max-width: 392px;
+    flex-basis: calc((100% - 64px) / 2);
+  }
+}
+
+/* #endregion */

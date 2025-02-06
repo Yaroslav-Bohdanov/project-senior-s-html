@@ -1,0 +1,107 @@
+<!-- 06 Олександр Лунгол -->
+<section class="rent" id="rent-a-yacht">
+  <div class="container">
+    <div class="rent__form-wrapper">
+      <h2 class="rent__title">Rent a yacht now</h2>
+      <form class="rent__form">
+        <div class="rent__field-input">
+          <label class="rent__label visually-hidden" for="user-full-name"
+            >Full name</label
+          >
+          <input
+            class="rent__input"
+            type="text"
+            name="user-full-name"
+            id="user-full-name"
+            placeholder="Full name"
+            required
+          />
+        </div>
+
+        <div class="rent__field-input">
+          <label class="rent__label visually-hidden" for="user-email"
+            >Email</label
+          >
+          <input
+            class="rent__input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </div>
+
+        <div class="rent__field-input">
+          <label class="rent__label visually-hidden" for="user-phone"
+            >Phone number</label
+          >
+          <input
+            class="rent__input"
+            type="tel"
+            name="user-phone"
+            id="user-phone"
+            placeholder="Phone number"
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            title="+XX-XXX-XXX-XX-XX"
+            required
+          />
+        </div>
+
+        <div class="rent__field-textarea">
+          <label class="rent__label visually-hidden" for="user-comment"
+            >Comment</label
+          >
+          <textarea
+            class="rent__textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            required
+          ></textarea>
+        </div>
+
+        <button class="rent__submit-btn" type="submit" aria-label="Send form">
+          Send
+        </button>
+      </form>
+    </div>
+    <picture class="rent__image-wrapper">
+      <source
+        srcset="
+          ./img/06-rent-yacht/desk-1440-rent-yacht.jpg    1x,
+          ./img/06-rent-yacht/desk-1440-rent-yacht@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/06-rent-yacht/desk-1280-rent-yacht.jpg    1x,
+          ./img/06-rent-yacht/desk-1280-rent-yacht@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/06-rent-yacht/tab-rent-yacht.jpg    1x,
+          ./img/06-rent-yacht/tab-rent-yacht@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/06-rent-yacht/mob-rent-yacht.jpg    1x,
+          ./img/06-rent-yacht/mob-rent-yacht@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="rent__img"
+        loading="lazy"
+        src="./img/06-rent-yacht/mob-rent-yacht.jpg"
+        alt="yacht"
+      />
+    </picture>
+  </div>
+</section>
